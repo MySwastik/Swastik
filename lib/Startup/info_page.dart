@@ -32,7 +32,7 @@ class _InfoPageState extends State<InfoPage> {
   }
   void _showSignInError(BuildContext context, PlatformException exception) {
     PlatformExeptionAlertDialog(
-      title: 'Sign in faild!',
+      title: 'Sign in faild',
       exception: exception,
     ).show(context);
   }
